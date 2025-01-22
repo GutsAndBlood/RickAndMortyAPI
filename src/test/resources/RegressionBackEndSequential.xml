@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Backend API Test Suite Sequential">
+    <listeners>
+        <listener class-name="listener.TestListener" />
+    </listeners>
+    <test name="Backend Endpoints Tests Sequential">
+        <classes>
+            <class name="backend.TestNGCharacterEndpoint"/>
+            <class name="backend.TestNGLocationEndpoint"/>
+        </classes>
+    </test>
+</suite>
