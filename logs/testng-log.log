@@ -65,3 +65,483 @@
 2025-01-21 21:19:11 [main] INFO  listener.TestListener - Test started: tc051_validateLocationEndpointErrorFilteringByMultipleQueryParams
 2025-01-21 21:19:11 [main] INFO  listener.TestListener - Test passed: tc051_validateLocationEndpointErrorFilteringByMultipleQueryParams
 2025-01-21 21:19:11 [main] INFO  listener.TestListener - Test suite finished: Surefire test
+2025-01-21 21:35:21 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ajgo_\IdeaProjects\RickAndMortyAPI\src\test\resources\RegressionBackEndParallel.xml
+
+2025-01-21 21:35:21 [main] INFO  listener.TestListener - Test suite started: Backend Endpoints Tests - Full Parallel
+2025-01-21 21:35:21 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test started: tc001_validateCharacterEndpointHeaderResponse
+2025-01-21 21:35:21 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test started: tc001_validateLocationEndpointHeaderResponse
+2025-01-21 21:35:22 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  backend.TestNGCharacterEndpoint - Logger to show 'good practices' for debugging purposes
+2025-01-21 21:35:22 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test passed: tc001_validateLocationEndpointHeaderResponse
+2025-01-21 21:35:22 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test passed: tc001_validateCharacterEndpointHeaderResponse
+2025-01-21 21:35:22 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test started: tc002_validateCharacterEndpointBodyParametersFirstCall
+2025-01-21 21:35:22 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test started: tc002_validateLocationEndpointBodyParametersFirstCall
+2025-01-21 21:35:22 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test passed: tc002_validateLocationEndpointBodyParametersFirstCall
+2025-01-21 21:35:22 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test started: tc003_validateLocationEndpointInfoParametersFirstCall
+2025-01-21 21:35:22 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test passed: tc002_validateCharacterEndpointBodyParametersFirstCall
+2025-01-21 21:35:22 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test started: tc003_validateCharacterEndpointInfoParametersFirstCall
+2025-01-21 21:35:23 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test passed: tc003_validateCharacterEndpointInfoParametersFirstCall
+2025-01-21 21:35:23 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test started: tc004_validateCharacterEndpointInfoParametersSecondCall
+2025-01-21 21:35:23 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test passed: tc003_validateLocationEndpointInfoParametersFirstCall
+2025-01-21 21:35:23 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test started: tc004_validateLocationEndpointInfoParametersSecondCall
+2025-01-21 21:35:23 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test passed: tc004_validateLocationEndpointInfoParametersSecondCall
+2025-01-21 21:35:23 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test started: tc010_validateLocationEndpointResultsParametersFirstUsername
+2025-01-21 21:35:23 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test passed: tc004_validateCharacterEndpointInfoParametersSecondCall
+2025-01-21 21:35:23 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test started: tc010_validateCharacterEndpointResultsParametersFirstUsername
+2025-01-21 21:35:23 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test passed: tc010_validateCharacterEndpointResultsParametersFirstUsername
+2025-01-21 21:35:23 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test started: tc011_validateCharacterEndpointResultsErrorNumberOfPages
+2025-01-21 21:35:24 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test passed: tc010_validateLocationEndpointResultsParametersFirstUsername
+2025-01-21 21:35:24 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test started: tc011_validateLocationEndpointResultsErrorNumberOfPages
+2025-01-21 21:35:24 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test passed: tc011_validateCharacterEndpointResultsErrorNumberOfPages
+2025-01-21 21:35:24 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test started: tc020_validateCharacterEndpointFilterByID
+2025-01-21 21:35:24 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test passed: tc011_validateLocationEndpointResultsErrorNumberOfPages
+2025-01-21 21:35:24 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test started: tc020_validateLocationEndpointFilterByID
+2025-01-21 21:35:24 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test passed: tc020_validateCharacterEndpointFilterByID
+2025-01-21 21:35:24 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test started: tc021_validateCharacterEndpointErrorFilteringByID
+2025-01-21 21:35:25 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test passed: tc021_validateCharacterEndpointErrorFilteringByID
+2025-01-21 21:35:25 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test started: tc030_validateCharacterEndpointFilterByMultipleIDs
+2025-01-21 21:35:25 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test passed: tc020_validateLocationEndpointFilterByID
+2025-01-21 21:35:25 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test started: tc021_validateLocationEndpointErrorFilteringByID
+2025-01-21 21:35:25 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test passed: tc030_validateCharacterEndpointFilterByMultipleIDs
+2025-01-21 21:35:25 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test started: tc031_validateCharacterEndpointFilterByMultipleIDsFiveValues
+2025-01-21 21:35:25 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test passed: tc031_validateCharacterEndpointFilterByMultipleIDsFiveValues
+2025-01-21 21:35:25 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test started: tc032_validateCharacterEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-21 21:35:25 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test passed: tc021_validateLocationEndpointErrorFilteringByID
+2025-01-21 21:35:25 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test started: tc030_validateLocationEndpointFilterByMultipleIDs
+2025-01-21 21:35:25 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test passed: tc032_validateCharacterEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-21 21:35:25 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test started: tc033_validateCharacterEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-21 21:35:25 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test passed: tc030_validateLocationEndpointFilterByMultipleIDs
+2025-01-21 21:35:25 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test started: tc031_validateLocationEndpointFilterByMultipleIDsFiveValues
+2025-01-21 21:35:26 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test passed: tc033_validateCharacterEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-21 21:35:26 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test started: tc040_validateCharacterEndpointFilterByQueryParams
+2025-01-21 21:35:26 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test passed: tc031_validateLocationEndpointFilterByMultipleIDsFiveValues
+2025-01-21 21:35:26 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test started: tc032_validateLocationEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-21 21:35:26 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test passed: tc040_validateCharacterEndpointFilterByQueryParams
+2025-01-21 21:35:26 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test started: tc041_validateCharacterEndpointErrorFilteringByQueryParams
+2025-01-21 21:35:26 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test passed: tc032_validateLocationEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-21 21:35:26 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test started: tc033_validateLocationEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-21 21:35:26 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test passed: tc033_validateLocationEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-21 21:35:26 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test started: tc040_validateLocationEndpointFilterByQueryParams
+2025-01-21 21:35:26 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test passed: tc041_validateCharacterEndpointErrorFilteringByQueryParams
+2025-01-21 21:35:26 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test started: tc050_validateCharacterEndpointFilterByMultipleQueryParams
+2025-01-21 21:35:26 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test passed: tc040_validateLocationEndpointFilterByQueryParams
+2025-01-21 21:35:26 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test started: tc041_validateLocationEndpointErrorFilteringByQueryParams
+2025-01-21 21:35:27 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test passed: tc050_validateCharacterEndpointFilterByMultipleQueryParams
+2025-01-21 21:35:27 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test started: tc051_validateCharacterEndpointErrorFilteringByMultipleQueryParams
+2025-01-21 21:35:27 [TestNG-test-Backend Endpoints Tests - Full Parallel-1] INFO  listener.TestListener - Test passed: tc051_validateCharacterEndpointErrorFilteringByMultipleQueryParams
+2025-01-21 21:35:27 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test passed: tc041_validateLocationEndpointErrorFilteringByQueryParams
+2025-01-21 21:35:27 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test started: tc050_validateLocationEndpointFilterByMultipleQueryParams
+2025-01-21 21:35:27 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test passed: tc050_validateLocationEndpointFilterByMultipleQueryParams
+2025-01-21 21:35:27 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test started: tc051_validateLocationEndpointErrorFilteringByMultipleQueryParams
+2025-01-21 21:35:28 [TestNG-test-Backend Endpoints Tests - Full Parallel-2] INFO  listener.TestListener - Test passed: tc051_validateLocationEndpointErrorFilteringByMultipleQueryParams
+2025-01-21 21:35:28 [main] INFO  listener.TestListener - Test suite finished: Backend Endpoints Tests - Full Parallel
+2025-01-22 07:26:36 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ajgo_\AppData\Local\JetBrains\IntelliJIdea2024.3\temp-testng-customsuite.xml
+
+2025-01-22 07:26:36 [main] INFO  listener.TestListener - Test suite started: RickAndMortyAPI
+2025-01-22 07:26:36 [main] INFO  listener.TestListener - Test started: tc001_validateCharacterEndpointHeaderResponse
+2025-01-22 07:26:37 [main] INFO  backend.TestNGCharacterEndpoint - Logger to show 'good practices' for debugging purposes
+2025-01-22 07:26:37 [main] INFO  listener.TestListener - Test passed: tc001_validateCharacterEndpointHeaderResponse
+2025-01-22 07:26:37 [main] INFO  listener.TestListener - Test started: tc002_validateCharacterEndpointBodyParametersFirstCall
+2025-01-22 07:26:37 [main] INFO  listener.TestListener - Test passed: tc002_validateCharacterEndpointBodyParametersFirstCall
+2025-01-22 07:26:37 [main] INFO  listener.TestListener - Test started: tc003_validateCharacterEndpointInfoParametersFirstCall
+2025-01-22 07:26:38 [main] INFO  listener.TestListener - Test passed: tc003_validateCharacterEndpointInfoParametersFirstCall
+2025-01-22 07:26:38 [main] INFO  listener.TestListener - Test started: tc004_validateCharacterEndpointInfoParametersSecondCall
+2025-01-22 07:26:38 [main] INFO  listener.TestListener - Test passed: tc004_validateCharacterEndpointInfoParametersSecondCall
+2025-01-22 07:26:38 [main] INFO  listener.TestListener - Test started: tc010_validateCharacterEndpointResultsParametersFirstUsername
+2025-01-22 07:26:38 [main] INFO  listener.TestListener - Test passed: tc010_validateCharacterEndpointResultsParametersFirstUsername
+2025-01-22 07:26:38 [main] INFO  listener.TestListener - Test started: tc011_validateCharacterEndpointResultsErrorNumberOfPages
+2025-01-22 07:26:39 [main] INFO  listener.TestListener - Test passed: tc011_validateCharacterEndpointResultsErrorNumberOfPages
+2025-01-22 07:26:39 [main] INFO  listener.TestListener - Test started: tc020_validateCharacterEndpointFilterByID
+2025-01-22 07:26:39 [main] INFO  listener.TestListener - Test passed: tc020_validateCharacterEndpointFilterByID
+2025-01-22 07:26:39 [main] INFO  listener.TestListener - Test started: tc021_validateCharacterEndpointErrorFilteringByID
+2025-01-22 07:26:39 [main] INFO  listener.TestListener - Test passed: tc021_validateCharacterEndpointErrorFilteringByID
+2025-01-22 07:26:39 [main] INFO  listener.TestListener - Test started: tc030_validateCharacterEndpointFilterByMultipleIDs
+2025-01-22 07:26:40 [main] INFO  listener.TestListener - Test passed: tc030_validateCharacterEndpointFilterByMultipleIDs
+2025-01-22 07:26:40 [main] INFO  listener.TestListener - Test started: tc031_validateCharacterEndpointFilterByMultipleIDsFiveValues
+2025-01-22 07:26:40 [main] INFO  listener.TestListener - Test passed: tc031_validateCharacterEndpointFilterByMultipleIDsFiveValues
+2025-01-22 07:26:40 [main] INFO  listener.TestListener - Test started: tc032_validateCharacterEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 07:26:41 [main] INFO  listener.TestListener - Test passed: tc032_validateCharacterEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 07:26:41 [main] INFO  listener.TestListener - Test started: tc033_validateCharacterEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 07:26:41 [main] INFO  listener.TestListener - Test passed: tc033_validateCharacterEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 07:26:41 [main] INFO  listener.TestListener - Test started: tc040_validateCharacterEndpointFilterByQueryParams
+2025-01-22 07:26:41 [main] INFO  listener.TestListener - Test passed: tc040_validateCharacterEndpointFilterByQueryParams
+2025-01-22 07:26:41 [main] INFO  listener.TestListener - Test started: tc041_validateCharacterEndpointErrorFilteringByQueryParams
+2025-01-22 07:26:42 [main] INFO  listener.TestListener - Test passed: tc041_validateCharacterEndpointErrorFilteringByQueryParams
+2025-01-22 07:26:42 [main] INFO  listener.TestListener - Test started: tc050_validateCharacterEndpointFilterByMultipleQueryParams
+2025-01-22 07:26:42 [main] INFO  listener.TestListener - Test passed: tc050_validateCharacterEndpointFilterByMultipleQueryParams
+2025-01-22 07:26:42 [main] INFO  listener.TestListener - Test started: tc051_validateCharacterEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 07:26:43 [main] INFO  listener.TestListener - Test passed: tc051_validateCharacterEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 07:26:43 [main] INFO  listener.TestListener - Test suite finished: RickAndMortyAPI
+2025-01-22 19:04:51 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ajgo_\AppData\Local\JetBrains\IntelliJIdea2024.3\temp-testng-customsuite.xml
+
+2025-01-22 19:04:51 [main] INFO  listener.TestListener - Test suite started: RickAndMortyAPI
+2025-01-22 19:04:51 [main] INFO  listener.TestListener - Test started: tc001_validateCharacterEndpointHeaderResponse
+2025-01-22 19:04:52 [main] INFO  backend.TestNGEpisodeEndpoint - Logger to show 'good practices' for debugging purposes
+2025-01-22 19:04:52 [main] INFO  listener.TestListener - Test passed: tc001_validateCharacterEndpointHeaderResponse
+2025-01-22 19:04:52 [main] INFO  listener.TestListener - Test started: tc002_validateCharacterEndpointBodyParametersFirstCall
+2025-01-22 19:04:52 [main] INFO  listener.TestListener - Test passed: tc002_validateCharacterEndpointBodyParametersFirstCall
+2025-01-22 19:04:52 [main] INFO  listener.TestListener - Test started: tc003_validateCharacterEndpointInfoParametersFirstCall
+2025-01-22 19:04:53 [main] ERROR listener.TestListener - Test failed: tc003_validateCharacterEndpointInfoParametersFirstCall
+2025-01-22 19:04:53 [main] ERROR listener.TestListener - Error: java.lang.AssertionError: Next Link dont Match with expected Value expected [https://rickandmortyapi.com/api/Episode?page=2] but found [https://rickandmortyapi.com/api/episode?page=2]
+2025-01-22 19:04:53 [main] INFO  listener.TestListener - Test started: tc004_validateCharacterEndpointInfoParametersSecondCall
+2025-01-22 19:04:54 [main] ERROR listener.TestListener - Test failed: tc004_validateCharacterEndpointInfoParametersSecondCall
+2025-01-22 19:04:54 [main] ERROR listener.TestListener - Error: java.lang.AssertionError: Next Link dont Match with expected Value expected [https://rickandmortyapi.com/api/Episode?page=3] but found [https://rickandmortyapi.com/api/episode?page=3]
+2025-01-22 19:04:54 [main] INFO  listener.TestListener - Test started: tc010_validateCharacterEndpointResultsParametersFirstUsername
+2025-01-22 19:04:55 [main] INFO  listener.TestListener - Test passed: tc010_validateCharacterEndpointResultsParametersFirstUsername
+2025-01-22 19:04:55 [main] INFO  listener.TestListener - Test started: tc011_validateCharacterEndpointResultsErrorNumberOfPages
+2025-01-22 19:04:55 [main] INFO  listener.TestListener - Test passed: tc011_validateCharacterEndpointResultsErrorNumberOfPages
+2025-01-22 19:04:55 [main] INFO  listener.TestListener - Test started: tc020_validateCharacterEndpointFilterByID
+2025-01-22 19:04:55 [main] INFO  listener.TestListener - Test passed: tc020_validateCharacterEndpointFilterByID
+2025-01-22 19:04:55 [main] INFO  listener.TestListener - Test started: tc021_validateCharacterEndpointErrorFilteringByID
+2025-01-22 19:04:56 [main] ERROR listener.TestListener - Test failed: tc021_validateCharacterEndpointErrorFilteringByID
+2025-01-22 19:04:56 [main] ERROR listener.TestListener - Error: java.lang.AssertionError: 1 expectation failed.
+JSON path error doesn't match.
+Expected: Character not found
+  Actual: Episode not found
+
+2025-01-22 19:04:56 [main] INFO  listener.TestListener - Test started: tc030_validateCharacterEndpointFilterByMultipleIDs
+2025-01-22 19:04:56 [main] INFO  listener.TestListener - Test passed: tc030_validateCharacterEndpointFilterByMultipleIDs
+2025-01-22 19:04:56 [main] INFO  listener.TestListener - Test started: tc031_validateCharacterEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:04:57 [main] INFO  listener.TestListener - Test passed: tc031_validateCharacterEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:04:57 [main] INFO  listener.TestListener - Test started: tc032_validateCharacterEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:04:57 [main] INFO  listener.TestListener - Test passed: tc032_validateCharacterEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:04:57 [main] INFO  listener.TestListener - Test started: tc033_validateCharacterEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:04:58 [main] INFO  listener.TestListener - Test passed: tc033_validateCharacterEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:04:58 [main] INFO  listener.TestListener - Test started: tc040_validateCharacterEndpointFilterByQueryParams
+2025-01-22 19:04:58 [main] INFO  listener.TestListener - Test passed: tc040_validateCharacterEndpointFilterByQueryParams
+2025-01-22 19:04:58 [main] INFO  listener.TestListener - Test started: tc041_validateCharacterEndpointErrorFilteringByQueryParams
+2025-01-22 19:04:59 [main] INFO  listener.TestListener - Test passed: tc041_validateCharacterEndpointErrorFilteringByQueryParams
+2025-01-22 19:04:59 [main] INFO  listener.TestListener - Test started: tc050_validateCharacterEndpointFilterByMultipleQueryParams
+2025-01-22 19:04:59 [main] ERROR listener.TestListener - Test failed: tc050_validateCharacterEndpointFilterByMultipleQueryParams
+2025-01-22 19:04:59 [main] ERROR listener.TestListener - Error: java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "io.restassured.response.Response.path(String, String[])" is null
+2025-01-22 19:04:59 [main] INFO  listener.TestListener - Test started: tc051_validateCharacterEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:04:59 [main] ERROR listener.TestListener - Test failed: tc051_validateCharacterEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:04:59 [main] ERROR listener.TestListener - Error: java.lang.AssertionError: 1 expectation failed.
+Expected status code <404> but was <200>.
+
+2025-01-22 19:04:59 [main] INFO  listener.TestListener - Test suite finished: RickAndMortyAPI
+2025-01-22 19:05:18 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ajgo_\AppData\Local\JetBrains\IntelliJIdea2024.3\temp-testng-customsuite.xml
+
+2025-01-22 19:05:18 [main] INFO  listener.TestListener - Test suite started: RickAndMortyAPI
+2025-01-22 19:05:18 [main] INFO  listener.TestListener - Test started: tc001_validateCharacterEndpointHeaderResponse
+2025-01-22 19:05:19 [main] INFO  backend.TestNGEpisodeEndpoint - Logger to show 'good practices' for debugging purposes
+2025-01-22 19:05:19 [main] INFO  listener.TestListener - Test passed: tc001_validateCharacterEndpointHeaderResponse
+2025-01-22 19:05:19 [main] INFO  listener.TestListener - Test started: tc002_validateCharacterEndpointBodyParametersFirstCall
+2025-01-22 19:05:20 [main] INFO  listener.TestListener - Test passed: tc002_validateCharacterEndpointBodyParametersFirstCall
+2025-01-22 19:05:20 [main] INFO  listener.TestListener - Test started: tc003_validateCharacterEndpointInfoParametersFirstCall
+2025-01-22 19:05:20 [main] INFO  listener.TestListener - Test passed: tc003_validateCharacterEndpointInfoParametersFirstCall
+2025-01-22 19:05:20 [main] INFO  listener.TestListener - Test started: tc004_validateCharacterEndpointInfoParametersSecondCall
+2025-01-22 19:05:20 [main] INFO  listener.TestListener - Test passed: tc004_validateCharacterEndpointInfoParametersSecondCall
+2025-01-22 19:05:20 [main] INFO  listener.TestListener - Test started: tc010_validateCharacterEndpointResultsParametersFirstUsername
+2025-01-22 19:05:21 [main] INFO  listener.TestListener - Test passed: tc010_validateCharacterEndpointResultsParametersFirstUsername
+2025-01-22 19:05:21 [main] INFO  listener.TestListener - Test started: tc011_validateCharacterEndpointResultsErrorNumberOfPages
+2025-01-22 19:05:21 [main] INFO  listener.TestListener - Test passed: tc011_validateCharacterEndpointResultsErrorNumberOfPages
+2025-01-22 19:05:21 [main] INFO  listener.TestListener - Test started: tc020_validateCharacterEndpointFilterByID
+2025-01-22 19:05:21 [main] INFO  listener.TestListener - Test passed: tc020_validateCharacterEndpointFilterByID
+2025-01-22 19:05:21 [main] INFO  listener.TestListener - Test started: tc021_validateCharacterEndpointErrorFilteringByID
+2025-01-22 19:05:22 [main] ERROR listener.TestListener - Test failed: tc021_validateCharacterEndpointErrorFilteringByID
+2025-01-22 19:05:22 [main] ERROR listener.TestListener - Error: java.lang.AssertionError: 1 expectation failed.
+JSON path error doesn't match.
+Expected: Character not found
+  Actual: Episode not found
+
+2025-01-22 19:05:22 [main] INFO  listener.TestListener - Test started: tc030_validateCharacterEndpointFilterByMultipleIDs
+2025-01-22 19:05:22 [main] INFO  listener.TestListener - Test passed: tc030_validateCharacterEndpointFilterByMultipleIDs
+2025-01-22 19:05:22 [main] INFO  listener.TestListener - Test started: tc031_validateCharacterEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:05:23 [main] INFO  listener.TestListener - Test passed: tc031_validateCharacterEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:05:23 [main] INFO  listener.TestListener - Test started: tc032_validateCharacterEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:05:23 [main] INFO  listener.TestListener - Test passed: tc032_validateCharacterEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:05:23 [main] INFO  listener.TestListener - Test started: tc033_validateCharacterEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:05:23 [main] INFO  listener.TestListener - Test passed: tc033_validateCharacterEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:05:23 [main] INFO  listener.TestListener - Test started: tc040_validateCharacterEndpointFilterByQueryParams
+2025-01-22 19:05:23 [main] INFO  listener.TestListener - Test passed: tc040_validateCharacterEndpointFilterByQueryParams
+2025-01-22 19:05:23 [main] INFO  listener.TestListener - Test started: tc041_validateCharacterEndpointErrorFilteringByQueryParams
+2025-01-22 19:05:24 [main] INFO  listener.TestListener - Test passed: tc041_validateCharacterEndpointErrorFilteringByQueryParams
+2025-01-22 19:05:24 [main] INFO  listener.TestListener - Test started: tc050_validateCharacterEndpointFilterByMultipleQueryParams
+2025-01-22 19:05:24 [main] ERROR listener.TestListener - Test failed: tc050_validateCharacterEndpointFilterByMultipleQueryParams
+2025-01-22 19:05:24 [main] ERROR listener.TestListener - Error: java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "io.restassured.response.Response.path(String, String[])" is null
+2025-01-22 19:05:24 [main] INFO  listener.TestListener - Test started: tc051_validateCharacterEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:05:24 [main] ERROR listener.TestListener - Test failed: tc051_validateCharacterEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:05:24 [main] ERROR listener.TestListener - Error: java.lang.AssertionError: 1 expectation failed.
+Expected status code <404> but was <200>.
+
+2025-01-22 19:05:24 [main] INFO  listener.TestListener - Test suite finished: RickAndMortyAPI
+2025-01-22 19:06:30 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ajgo_\AppData\Local\JetBrains\IntelliJIdea2024.3\temp-testng-customsuite.xml
+
+2025-01-22 19:06:31 [main] INFO  listener.TestListener - Test suite started: RickAndMortyAPI
+2025-01-22 19:06:31 [main] INFO  listener.TestListener - Test started: tc001_validateCharacterEndpointHeaderResponse
+2025-01-22 19:06:32 [main] INFO  backend.TestNGEpisodeEndpoint - Logger to show 'good practices' for debugging purposes
+2025-01-22 19:06:32 [main] INFO  listener.TestListener - Test passed: tc001_validateCharacterEndpointHeaderResponse
+2025-01-22 19:06:32 [main] INFO  listener.TestListener - Test started: tc002_validateCharacterEndpointBodyParametersFirstCall
+2025-01-22 19:06:32 [main] INFO  listener.TestListener - Test passed: tc002_validateCharacterEndpointBodyParametersFirstCall
+2025-01-22 19:06:32 [main] INFO  listener.TestListener - Test started: tc003_validateCharacterEndpointInfoParametersFirstCall
+2025-01-22 19:06:33 [main] INFO  listener.TestListener - Test passed: tc003_validateCharacterEndpointInfoParametersFirstCall
+2025-01-22 19:06:33 [main] INFO  listener.TestListener - Test started: tc004_validateCharacterEndpointInfoParametersSecondCall
+2025-01-22 19:06:33 [main] INFO  listener.TestListener - Test passed: tc004_validateCharacterEndpointInfoParametersSecondCall
+2025-01-22 19:06:33 [main] INFO  listener.TestListener - Test started: tc010_validateCharacterEndpointResultsParametersFirstUsername
+2025-01-22 19:06:34 [main] INFO  listener.TestListener - Test passed: tc010_validateCharacterEndpointResultsParametersFirstUsername
+2025-01-22 19:06:34 [main] INFO  listener.TestListener - Test started: tc011_validateCharacterEndpointResultsErrorNumberOfPages
+2025-01-22 19:06:34 [main] INFO  listener.TestListener - Test passed: tc011_validateCharacterEndpointResultsErrorNumberOfPages
+2025-01-22 19:06:34 [main] INFO  listener.TestListener - Test started: tc020_validateCharacterEndpointFilterByID
+2025-01-22 19:06:35 [main] INFO  listener.TestListener - Test passed: tc020_validateCharacterEndpointFilterByID
+2025-01-22 19:06:35 [main] INFO  listener.TestListener - Test started: tc021_validateCharacterEndpointErrorFilteringByID
+2025-01-22 19:06:35 [main] INFO  listener.TestListener - Test passed: tc021_validateCharacterEndpointErrorFilteringByID
+2025-01-22 19:06:35 [main] INFO  listener.TestListener - Test started: tc030_validateCharacterEndpointFilterByMultipleIDs
+2025-01-22 19:06:36 [main] INFO  listener.TestListener - Test passed: tc030_validateCharacterEndpointFilterByMultipleIDs
+2025-01-22 19:06:36 [main] INFO  listener.TestListener - Test started: tc031_validateCharacterEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:06:36 [main] INFO  listener.TestListener - Test passed: tc031_validateCharacterEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:06:36 [main] INFO  listener.TestListener - Test started: tc032_validateCharacterEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:06:37 [main] INFO  listener.TestListener - Test passed: tc032_validateCharacterEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:06:37 [main] INFO  listener.TestListener - Test started: tc033_validateCharacterEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:06:37 [main] INFO  listener.TestListener - Test passed: tc033_validateCharacterEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:06:37 [main] INFO  listener.TestListener - Test started: tc040_validateCharacterEndpointFilterByQueryParams
+2025-01-22 19:06:37 [main] INFO  listener.TestListener - Test passed: tc040_validateCharacterEndpointFilterByQueryParams
+2025-01-22 19:06:37 [main] INFO  listener.TestListener - Test started: tc041_validateCharacterEndpointErrorFilteringByQueryParams
+2025-01-22 19:06:38 [main] INFO  listener.TestListener - Test passed: tc041_validateCharacterEndpointErrorFilteringByQueryParams
+2025-01-22 19:06:38 [main] INFO  listener.TestListener - Test started: tc050_validateCharacterEndpointFilterByMultipleQueryParams
+2025-01-22 19:06:38 [main] INFO  listener.TestListener - Test passed: tc050_validateCharacterEndpointFilterByMultipleQueryParams
+2025-01-22 19:06:38 [main] INFO  listener.TestListener - Test started: tc051_validateCharacterEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:06:38 [main] INFO  listener.TestListener - Test passed: tc051_validateCharacterEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:06:38 [main] INFO  listener.TestListener - Test suite finished: RickAndMortyAPI
+2025-01-22 19:07:47 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ajgo_\AppData\Local\JetBrains\IntelliJIdea2024.3\temp-testng-customsuite.xml
+
+2025-01-22 19:07:47 [main] INFO  listener.TestListener - Test suite started: RickAndMortyAPI
+2025-01-22 19:07:47 [main] INFO  listener.TestListener - Test started: tc001_validateEpisodeEndpointHeaderResponse
+2025-01-22 19:07:48 [main] INFO  backend.TestNGEpisodeEndpoint - Logger to show 'good practices' for debugging purposes
+2025-01-22 19:07:48 [main] INFO  listener.TestListener - Test passed: tc001_validateEpisodeEndpointHeaderResponse
+2025-01-22 19:07:48 [main] INFO  listener.TestListener - Test started: tc002_validateEpisodeEndpointBodyParametersFirstCall
+2025-01-22 19:07:48 [main] INFO  listener.TestListener - Test passed: tc002_validateEpisodeEndpointBodyParametersFirstCall
+2025-01-22 19:07:48 [main] INFO  listener.TestListener - Test started: tc003_validateEpisodeEndpointInfoParametersFirstCall
+2025-01-22 19:07:48 [main] INFO  listener.TestListener - Test passed: tc003_validateEpisodeEndpointInfoParametersFirstCall
+2025-01-22 19:07:48 [main] INFO  listener.TestListener - Test started: tc004_validateEpisodeEndpointInfoParametersSecondCall
+2025-01-22 19:07:49 [main] INFO  listener.TestListener - Test passed: tc004_validateEpisodeEndpointInfoParametersSecondCall
+2025-01-22 19:07:49 [main] INFO  listener.TestListener - Test started: tc010_validateEpisodeEndpointResultsParametersFirstUsername
+2025-01-22 19:07:50 [main] INFO  listener.TestListener - Test passed: tc010_validateEpisodeEndpointResultsParametersFirstUsername
+2025-01-22 19:07:50 [main] INFO  listener.TestListener - Test started: tc011_validateEpisodeEndpointResultsErrorNumberOfPages
+2025-01-22 19:07:50 [main] INFO  listener.TestListener - Test passed: tc011_validateEpisodeEndpointResultsErrorNumberOfPages
+2025-01-22 19:07:50 [main] INFO  listener.TestListener - Test started: tc020_validateEpisodeEndpointFilterByID
+2025-01-22 19:07:51 [main] INFO  listener.TestListener - Test passed: tc020_validateEpisodeEndpointFilterByID
+2025-01-22 19:07:51 [main] INFO  listener.TestListener - Test started: tc021_validateEpisodeEndpointErrorFilteringByID
+2025-01-22 19:07:51 [main] INFO  listener.TestListener - Test passed: tc021_validateEpisodeEndpointErrorFilteringByID
+2025-01-22 19:07:51 [main] INFO  listener.TestListener - Test started: tc030_validateEpisodeEndpointFilterByMultipleIDs
+2025-01-22 19:07:52 [main] INFO  listener.TestListener - Test passed: tc030_validateEpisodeEndpointFilterByMultipleIDs
+2025-01-22 19:07:52 [main] INFO  listener.TestListener - Test started: tc031_validateCEpisodeEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:07:52 [main] INFO  listener.TestListener - Test passed: tc031_validateCEpisodeEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:07:52 [main] INFO  listener.TestListener - Test started: tc032_validateEpisodeEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:07:52 [main] INFO  listener.TestListener - Test passed: tc032_validateEpisodeEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:07:52 [main] INFO  listener.TestListener - Test started: tc033_validateEpisodeEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:07:53 [main] INFO  listener.TestListener - Test passed: tc033_validateEpisodeEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:07:53 [main] INFO  listener.TestListener - Test started: tc040_validateEpisodeEndpointFilterByQueryParams
+2025-01-22 19:07:53 [main] INFO  listener.TestListener - Test passed: tc040_validateEpisodeEndpointFilterByQueryParams
+2025-01-22 19:07:53 [main] INFO  listener.TestListener - Test started: tc041_validateEpisodeEndpointErrorFilteringByQueryParams
+2025-01-22 19:07:53 [main] INFO  listener.TestListener - Test passed: tc041_validateEpisodeEndpointErrorFilteringByQueryParams
+2025-01-22 19:07:53 [main] INFO  listener.TestListener - Test started: tc050_validateEpisodeEndpointFilterByMultipleQueryParams
+2025-01-22 19:07:54 [main] INFO  listener.TestListener - Test passed: tc050_validateEpisodeEndpointFilterByMultipleQueryParams
+2025-01-22 19:07:54 [main] INFO  listener.TestListener - Test started: tc051_validateEpisodeEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:07:54 [main] INFO  listener.TestListener - Test passed: tc051_validateEpisodeEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:07:54 [main] INFO  listener.TestListener - Test suite finished: RickAndMortyAPI
+2025-01-22 19:08:35 [main] INFO  listener.TestListener - Test suite started: Surefire test
+2025-01-22 19:08:35 [main] INFO  listener.TestListener - Test started: tc001_validateCharacterEndpointHeaderResponse
+2025-01-22 19:08:36 [main] INFO  backend.TestNGCharacterEndpoint - Logger to show 'good practices' for debugging purposes
+2025-01-22 19:08:36 [main] INFO  listener.TestListener - Test passed: tc001_validateCharacterEndpointHeaderResponse
+2025-01-22 19:08:36 [main] INFO  listener.TestListener - Test started: tc002_validateCharacterEndpointBodyParametersFirstCall
+2025-01-22 19:08:36 [main] INFO  listener.TestListener - Test passed: tc002_validateCharacterEndpointBodyParametersFirstCall
+2025-01-22 19:08:36 [main] INFO  listener.TestListener - Test started: tc003_validateCharacterEndpointInfoParametersFirstCall
+2025-01-22 19:08:37 [main] INFO  listener.TestListener - Test passed: tc003_validateCharacterEndpointInfoParametersFirstCall
+2025-01-22 19:08:37 [main] INFO  listener.TestListener - Test started: tc004_validateCharacterEndpointInfoParametersSecondCall
+2025-01-22 19:08:37 [main] INFO  listener.TestListener - Test passed: tc004_validateCharacterEndpointInfoParametersSecondCall
+2025-01-22 19:08:37 [main] INFO  listener.TestListener - Test started: tc010_validateCharacterEndpointResultsParametersFirstUsername
+2025-01-22 19:08:38 [main] INFO  listener.TestListener - Test passed: tc010_validateCharacterEndpointResultsParametersFirstUsername
+2025-01-22 19:08:38 [main] INFO  listener.TestListener - Test started: tc011_validateCharacterEndpointResultsErrorNumberOfPages
+2025-01-22 19:08:38 [main] INFO  listener.TestListener - Test passed: tc011_validateCharacterEndpointResultsErrorNumberOfPages
+2025-01-22 19:08:38 [main] INFO  listener.TestListener - Test started: tc020_validateCharacterEndpointFilterByID
+2025-01-22 19:08:39 [main] INFO  listener.TestListener - Test passed: tc020_validateCharacterEndpointFilterByID
+2025-01-22 19:08:39 [main] INFO  listener.TestListener - Test started: tc021_validateCharacterEndpointErrorFilteringByID
+2025-01-22 19:08:39 [main] INFO  listener.TestListener - Test passed: tc021_validateCharacterEndpointErrorFilteringByID
+2025-01-22 19:08:39 [main] INFO  listener.TestListener - Test started: tc030_validateCharacterEndpointFilterByMultipleIDs
+2025-01-22 19:08:40 [main] INFO  listener.TestListener - Test passed: tc030_validateCharacterEndpointFilterByMultipleIDs
+2025-01-22 19:08:40 [main] INFO  listener.TestListener - Test started: tc031_validateCharacterEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:08:40 [main] INFO  listener.TestListener - Test passed: tc031_validateCharacterEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:08:40 [main] INFO  listener.TestListener - Test started: tc032_validateCharacterEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:08:41 [main] INFO  listener.TestListener - Test passed: tc032_validateCharacterEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:08:41 [main] INFO  listener.TestListener - Test started: tc033_validateCharacterEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:08:41 [main] INFO  listener.TestListener - Test passed: tc033_validateCharacterEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:08:41 [main] INFO  listener.TestListener - Test started: tc040_validateCharacterEndpointFilterByQueryParams
+2025-01-22 19:08:42 [main] INFO  listener.TestListener - Test passed: tc040_validateCharacterEndpointFilterByQueryParams
+2025-01-22 19:08:42 [main] INFO  listener.TestListener - Test started: tc041_validateCharacterEndpointErrorFilteringByQueryParams
+2025-01-22 19:08:42 [main] INFO  listener.TestListener - Test passed: tc041_validateCharacterEndpointErrorFilteringByQueryParams
+2025-01-22 19:08:42 [main] INFO  listener.TestListener - Test started: tc050_validateCharacterEndpointFilterByMultipleQueryParams
+2025-01-22 19:08:43 [main] INFO  listener.TestListener - Test passed: tc050_validateCharacterEndpointFilterByMultipleQueryParams
+2025-01-22 19:08:43 [main] INFO  listener.TestListener - Test started: tc051_validateCharacterEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:08:43 [main] INFO  listener.TestListener - Test passed: tc051_validateCharacterEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:08:43 [main] INFO  listener.TestListener - Test started: tc001_validateEpisodeEndpointHeaderResponse
+2025-01-22 19:08:44 [main] INFO  backend.TestNGEpisodeEndpoint - Logger to show 'good practices' for debugging purposes
+2025-01-22 19:08:44 [main] INFO  listener.TestListener - Test passed: tc001_validateEpisodeEndpointHeaderResponse
+2025-01-22 19:08:44 [main] INFO  listener.TestListener - Test started: tc002_validateEpisodeEndpointBodyParametersFirstCall
+2025-01-22 19:08:44 [main] INFO  listener.TestListener - Test passed: tc002_validateEpisodeEndpointBodyParametersFirstCall
+2025-01-22 19:08:44 [main] INFO  listener.TestListener - Test started: tc003_validateEpisodeEndpointInfoParametersFirstCall
+2025-01-22 19:08:45 [main] INFO  listener.TestListener - Test passed: tc003_validateEpisodeEndpointInfoParametersFirstCall
+2025-01-22 19:08:45 [main] INFO  listener.TestListener - Test started: tc004_validateEpisodeEndpointInfoParametersSecondCall
+2025-01-22 19:08:45 [main] INFO  listener.TestListener - Test passed: tc004_validateEpisodeEndpointInfoParametersSecondCall
+2025-01-22 19:08:45 [main] INFO  listener.TestListener - Test started: tc010_validateEpisodeEndpointResultsParametersFirstUsername
+2025-01-22 19:08:46 [main] INFO  listener.TestListener - Test passed: tc010_validateEpisodeEndpointResultsParametersFirstUsername
+2025-01-22 19:08:46 [main] INFO  listener.TestListener - Test started: tc011_validateEpisodeEndpointResultsErrorNumberOfPages
+2025-01-22 19:08:46 [main] INFO  listener.TestListener - Test passed: tc011_validateEpisodeEndpointResultsErrorNumberOfPages
+2025-01-22 19:08:46 [main] INFO  listener.TestListener - Test started: tc020_validateEpisodeEndpointFilterByID
+2025-01-22 19:08:47 [main] INFO  listener.TestListener - Test passed: tc020_validateEpisodeEndpointFilterByID
+2025-01-22 19:08:47 [main] INFO  listener.TestListener - Test started: tc021_validateEpisodeEndpointErrorFilteringByID
+2025-01-22 19:08:47 [main] INFO  listener.TestListener - Test passed: tc021_validateEpisodeEndpointErrorFilteringByID
+2025-01-22 19:08:47 [main] INFO  listener.TestListener - Test started: tc030_validateEpisodeEndpointFilterByMultipleIDs
+2025-01-22 19:08:48 [main] INFO  listener.TestListener - Test passed: tc030_validateEpisodeEndpointFilterByMultipleIDs
+2025-01-22 19:08:48 [main] INFO  listener.TestListener - Test started: tc031_validateCEpisodeEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:08:48 [main] INFO  listener.TestListener - Test passed: tc031_validateCEpisodeEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:08:48 [main] INFO  listener.TestListener - Test started: tc032_validateEpisodeEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:08:49 [main] INFO  listener.TestListener - Test passed: tc032_validateEpisodeEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:08:49 [main] INFO  listener.TestListener - Test started: tc033_validateEpisodeEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:08:49 [main] INFO  listener.TestListener - Test passed: tc033_validateEpisodeEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:08:49 [main] INFO  listener.TestListener - Test started: tc040_validateEpisodeEndpointFilterByQueryParams
+2025-01-22 19:08:50 [main] INFO  listener.TestListener - Test passed: tc040_validateEpisodeEndpointFilterByQueryParams
+2025-01-22 19:08:50 [main] INFO  listener.TestListener - Test started: tc041_validateEpisodeEndpointErrorFilteringByQueryParams
+2025-01-22 19:08:50 [main] INFO  listener.TestListener - Test passed: tc041_validateEpisodeEndpointErrorFilteringByQueryParams
+2025-01-22 19:08:50 [main] INFO  listener.TestListener - Test started: tc050_validateEpisodeEndpointFilterByMultipleQueryParams
+2025-01-22 19:08:50 [main] INFO  listener.TestListener - Test passed: tc050_validateEpisodeEndpointFilterByMultipleQueryParams
+2025-01-22 19:08:50 [main] INFO  listener.TestListener - Test started: tc051_validateEpisodeEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:08:51 [main] INFO  listener.TestListener - Test passed: tc051_validateEpisodeEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:08:51 [main] INFO  listener.TestListener - Test started: tc001_validateLocationEndpointHeaderResponse
+2025-01-22 19:08:51 [main] INFO  listener.TestListener - Test passed: tc001_validateLocationEndpointHeaderResponse
+2025-01-22 19:08:51 [main] INFO  listener.TestListener - Test started: tc002_validateLocationEndpointBodyParametersFirstCall
+2025-01-22 19:08:51 [main] INFO  listener.TestListener - Test passed: tc002_validateLocationEndpointBodyParametersFirstCall
+2025-01-22 19:08:51 [main] INFO  listener.TestListener - Test started: tc003_validateLocationEndpointInfoParametersFirstCall
+2025-01-22 19:08:51 [main] INFO  listener.TestListener - Test passed: tc003_validateLocationEndpointInfoParametersFirstCall
+2025-01-22 19:08:51 [main] INFO  listener.TestListener - Test started: tc004_validateLocationEndpointInfoParametersSecondCall
+2025-01-22 19:08:52 [main] INFO  listener.TestListener - Test passed: tc004_validateLocationEndpointInfoParametersSecondCall
+2025-01-22 19:08:52 [main] INFO  listener.TestListener - Test started: tc010_validateLocationEndpointResultsParametersFirstUsername
+2025-01-22 19:08:52 [main] INFO  listener.TestListener - Test passed: tc010_validateLocationEndpointResultsParametersFirstUsername
+2025-01-22 19:08:52 [main] INFO  listener.TestListener - Test started: tc011_validateLocationEndpointResultsErrorNumberOfPages
+2025-01-22 19:08:52 [main] INFO  listener.TestListener - Test passed: tc011_validateLocationEndpointResultsErrorNumberOfPages
+2025-01-22 19:08:52 [main] INFO  listener.TestListener - Test started: tc020_validateLocationEndpointFilterByID
+2025-01-22 19:08:53 [main] INFO  listener.TestListener - Test passed: tc020_validateLocationEndpointFilterByID
+2025-01-22 19:08:53 [main] INFO  listener.TestListener - Test started: tc021_validateLocationEndpointErrorFilteringByID
+2025-01-22 19:08:53 [main] INFO  listener.TestListener - Test passed: tc021_validateLocationEndpointErrorFilteringByID
+2025-01-22 19:08:53 [main] INFO  listener.TestListener - Test started: tc030_validateLocationEndpointFilterByMultipleIDs
+2025-01-22 19:08:53 [main] INFO  listener.TestListener - Test passed: tc030_validateLocationEndpointFilterByMultipleIDs
+2025-01-22 19:08:53 [main] INFO  listener.TestListener - Test started: tc031_validateLocationEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:08:54 [main] INFO  listener.TestListener - Test passed: tc031_validateLocationEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:08:54 [main] INFO  listener.TestListener - Test started: tc032_validateLocationEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:08:54 [main] INFO  listener.TestListener - Test passed: tc032_validateLocationEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:08:54 [main] INFO  listener.TestListener - Test started: tc033_validateLocationEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:08:54 [main] INFO  listener.TestListener - Test passed: tc033_validateLocationEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:08:54 [main] INFO  listener.TestListener - Test started: tc040_validateLocationEndpointFilterByQueryParams
+2025-01-22 19:08:54 [main] INFO  listener.TestListener - Test passed: tc040_validateLocationEndpointFilterByQueryParams
+2025-01-22 19:08:54 [main] INFO  listener.TestListener - Test started: tc041_validateLocationEndpointErrorFilteringByQueryParams
+2025-01-22 19:08:55 [main] INFO  listener.TestListener - Test passed: tc041_validateLocationEndpointErrorFilteringByQueryParams
+2025-01-22 19:08:55 [main] INFO  listener.TestListener - Test started: tc050_validateLocationEndpointFilterByMultipleQueryParams
+2025-01-22 19:08:55 [main] INFO  listener.TestListener - Test passed: tc050_validateLocationEndpointFilterByMultipleQueryParams
+2025-01-22 19:08:55 [main] INFO  listener.TestListener - Test started: tc051_validateLocationEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:08:55 [main] INFO  listener.TestListener - Test passed: tc051_validateLocationEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:08:55 [main] INFO  listener.TestListener - Test suite finished: Surefire test
+2025-01-22 19:09:08 [main] INFO  listener.TestListener - Test suite started: Surefire test
+2025-01-22 19:09:08 [main] INFO  listener.TestListener - Test started: tc001_validateCharacterEndpointHeaderResponse
+2025-01-22 19:09:09 [main] INFO  backend.TestNGCharacterEndpoint - Logger to show 'good practices' for debugging purposes
+2025-01-22 19:09:09 [main] INFO  listener.TestListener - Test passed: tc001_validateCharacterEndpointHeaderResponse
+2025-01-22 19:09:09 [main] INFO  listener.TestListener - Test started: tc002_validateCharacterEndpointBodyParametersFirstCall
+2025-01-22 19:09:09 [main] INFO  listener.TestListener - Test passed: tc002_validateCharacterEndpointBodyParametersFirstCall
+2025-01-22 19:09:09 [main] INFO  listener.TestListener - Test started: tc003_validateCharacterEndpointInfoParametersFirstCall
+2025-01-22 19:09:10 [main] INFO  listener.TestListener - Test passed: tc003_validateCharacterEndpointInfoParametersFirstCall
+2025-01-22 19:09:10 [main] INFO  listener.TestListener - Test started: tc004_validateCharacterEndpointInfoParametersSecondCall
+2025-01-22 19:09:10 [main] INFO  listener.TestListener - Test passed: tc004_validateCharacterEndpointInfoParametersSecondCall
+2025-01-22 19:09:10 [main] INFO  listener.TestListener - Test started: tc010_validateCharacterEndpointResultsParametersFirstUsername
+2025-01-22 19:09:11 [main] INFO  listener.TestListener - Test passed: tc010_validateCharacterEndpointResultsParametersFirstUsername
+2025-01-22 19:09:11 [main] INFO  listener.TestListener - Test started: tc011_validateCharacterEndpointResultsErrorNumberOfPages
+2025-01-22 19:09:11 [main] INFO  listener.TestListener - Test passed: tc011_validateCharacterEndpointResultsErrorNumberOfPages
+2025-01-22 19:09:11 [main] INFO  listener.TestListener - Test started: tc020_validateCharacterEndpointFilterByID
+2025-01-22 19:09:11 [main] INFO  listener.TestListener - Test passed: tc020_validateCharacterEndpointFilterByID
+2025-01-22 19:09:11 [main] INFO  listener.TestListener - Test started: tc021_validateCharacterEndpointErrorFilteringByID
+2025-01-22 19:09:12 [main] INFO  listener.TestListener - Test passed: tc021_validateCharacterEndpointErrorFilteringByID
+2025-01-22 19:09:12 [main] INFO  listener.TestListener - Test started: tc030_validateCharacterEndpointFilterByMultipleIDs
+2025-01-22 19:09:12 [main] INFO  listener.TestListener - Test passed: tc030_validateCharacterEndpointFilterByMultipleIDs
+2025-01-22 19:09:12 [main] INFO  listener.TestListener - Test started: tc031_validateCharacterEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:09:12 [main] INFO  listener.TestListener - Test passed: tc031_validateCharacterEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:09:12 [main] INFO  listener.TestListener - Test started: tc032_validateCharacterEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:09:13 [main] INFO  listener.TestListener - Test passed: tc032_validateCharacterEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:09:13 [main] INFO  listener.TestListener - Test started: tc033_validateCharacterEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:09:13 [main] INFO  listener.TestListener - Test passed: tc033_validateCharacterEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:09:13 [main] INFO  listener.TestListener - Test started: tc040_validateCharacterEndpointFilterByQueryParams
+2025-01-22 19:09:13 [main] INFO  listener.TestListener - Test passed: tc040_validateCharacterEndpointFilterByQueryParams
+2025-01-22 19:09:13 [main] INFO  listener.TestListener - Test started: tc041_validateCharacterEndpointErrorFilteringByQueryParams
+2025-01-22 19:09:14 [main] INFO  listener.TestListener - Test passed: tc041_validateCharacterEndpointErrorFilteringByQueryParams
+2025-01-22 19:09:14 [main] INFO  listener.TestListener - Test started: tc050_validateCharacterEndpointFilterByMultipleQueryParams
+2025-01-22 19:09:14 [main] INFO  listener.TestListener - Test passed: tc050_validateCharacterEndpointFilterByMultipleQueryParams
+2025-01-22 19:09:14 [main] INFO  listener.TestListener - Test started: tc051_validateCharacterEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:09:14 [main] INFO  listener.TestListener - Test passed: tc051_validateCharacterEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:09:14 [main] INFO  listener.TestListener - Test started: tc001_validateEpisodeEndpointHeaderResponse
+2025-01-22 19:09:15 [main] INFO  backend.TestNGEpisodeEndpoint - Logger to show 'good practices' for debugging purposes
+2025-01-22 19:09:15 [main] INFO  listener.TestListener - Test passed: tc001_validateEpisodeEndpointHeaderResponse
+2025-01-22 19:09:15 [main] INFO  listener.TestListener - Test started: tc002_validateEpisodeEndpointBodyParametersFirstCall
+2025-01-22 19:09:15 [main] INFO  listener.TestListener - Test passed: tc002_validateEpisodeEndpointBodyParametersFirstCall
+2025-01-22 19:09:15 [main] INFO  listener.TestListener - Test started: tc003_validateEpisodeEndpointInfoParametersFirstCall
+2025-01-22 19:09:16 [main] INFO  listener.TestListener - Test passed: tc003_validateEpisodeEndpointInfoParametersFirstCall
+2025-01-22 19:09:16 [main] INFO  listener.TestListener - Test started: tc004_validateEpisodeEndpointInfoParametersSecondCall
+2025-01-22 19:09:16 [main] INFO  listener.TestListener - Test passed: tc004_validateEpisodeEndpointInfoParametersSecondCall
+2025-01-22 19:09:16 [main] INFO  listener.TestListener - Test started: tc010_validateEpisodeEndpointResultsParametersFirstUsername
+2025-01-22 19:09:16 [main] INFO  listener.TestListener - Test passed: tc010_validateEpisodeEndpointResultsParametersFirstUsername
+2025-01-22 19:09:16 [main] INFO  listener.TestListener - Test started: tc011_validateEpisodeEndpointResultsErrorNumberOfPages
+2025-01-22 19:09:17 [main] INFO  listener.TestListener - Test passed: tc011_validateEpisodeEndpointResultsErrorNumberOfPages
+2025-01-22 19:09:17 [main] INFO  listener.TestListener - Test started: tc020_validateEpisodeEndpointFilterByID
+2025-01-22 19:09:17 [main] INFO  listener.TestListener - Test passed: tc020_validateEpisodeEndpointFilterByID
+2025-01-22 19:09:17 [main] INFO  listener.TestListener - Test started: tc021_validateEpisodeEndpointErrorFilteringByID
+2025-01-22 19:09:18 [main] INFO  listener.TestListener - Test passed: tc021_validateEpisodeEndpointErrorFilteringByID
+2025-01-22 19:09:18 [main] INFO  listener.TestListener - Test started: tc030_validateEpisodeEndpointFilterByMultipleIDs
+2025-01-22 19:09:18 [main] INFO  listener.TestListener - Test passed: tc030_validateEpisodeEndpointFilterByMultipleIDs
+2025-01-22 19:09:18 [main] INFO  listener.TestListener - Test started: tc031_validateCEpisodeEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:09:18 [main] INFO  listener.TestListener - Test passed: tc031_validateCEpisodeEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:09:18 [main] INFO  listener.TestListener - Test started: tc032_validateEpisodeEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:09:19 [main] INFO  listener.TestListener - Test passed: tc032_validateEpisodeEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:09:19 [main] INFO  listener.TestListener - Test started: tc033_validateEpisodeEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:09:19 [main] INFO  listener.TestListener - Test passed: tc033_validateEpisodeEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:09:19 [main] INFO  listener.TestListener - Test started: tc040_validateEpisodeEndpointFilterByQueryParams
+2025-01-22 19:09:19 [main] INFO  listener.TestListener - Test passed: tc040_validateEpisodeEndpointFilterByQueryParams
+2025-01-22 19:09:19 [main] INFO  listener.TestListener - Test started: tc041_validateEpisodeEndpointErrorFilteringByQueryParams
+2025-01-22 19:09:20 [main] INFO  listener.TestListener - Test passed: tc041_validateEpisodeEndpointErrorFilteringByQueryParams
+2025-01-22 19:09:20 [main] INFO  listener.TestListener - Test started: tc050_validateEpisodeEndpointFilterByMultipleQueryParams
+2025-01-22 19:09:20 [main] INFO  listener.TestListener - Test passed: tc050_validateEpisodeEndpointFilterByMultipleQueryParams
+2025-01-22 19:09:20 [main] INFO  listener.TestListener - Test started: tc051_validateEpisodeEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:09:20 [main] INFO  listener.TestListener - Test passed: tc051_validateEpisodeEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:09:20 [main] INFO  listener.TestListener - Test started: tc001_validateLocationEndpointHeaderResponse
+2025-01-22 19:09:21 [main] INFO  listener.TestListener - Test passed: tc001_validateLocationEndpointHeaderResponse
+2025-01-22 19:09:21 [main] INFO  listener.TestListener - Test started: tc002_validateLocationEndpointBodyParametersFirstCall
+2025-01-22 19:09:21 [main] INFO  listener.TestListener - Test passed: tc002_validateLocationEndpointBodyParametersFirstCall
+2025-01-22 19:09:21 [main] INFO  listener.TestListener - Test started: tc003_validateLocationEndpointInfoParametersFirstCall
+2025-01-22 19:09:21 [main] INFO  listener.TestListener - Test passed: tc003_validateLocationEndpointInfoParametersFirstCall
+2025-01-22 19:09:21 [main] INFO  listener.TestListener - Test started: tc004_validateLocationEndpointInfoParametersSecondCall
+2025-01-22 19:09:22 [main] INFO  listener.TestListener - Test passed: tc004_validateLocationEndpointInfoParametersSecondCall
+2025-01-22 19:09:22 [main] INFO  listener.TestListener - Test started: tc010_validateLocationEndpointResultsParametersFirstUsername
+2025-01-22 19:09:22 [main] INFO  listener.TestListener - Test passed: tc010_validateLocationEndpointResultsParametersFirstUsername
+2025-01-22 19:09:22 [main] INFO  listener.TestListener - Test started: tc011_validateLocationEndpointResultsErrorNumberOfPages
+2025-01-22 19:09:23 [main] INFO  listener.TestListener - Test passed: tc011_validateLocationEndpointResultsErrorNumberOfPages
+2025-01-22 19:09:23 [main] INFO  listener.TestListener - Test started: tc020_validateLocationEndpointFilterByID
+2025-01-22 19:09:23 [main] INFO  listener.TestListener - Test passed: tc020_validateLocationEndpointFilterByID
+2025-01-22 19:09:23 [main] INFO  listener.TestListener - Test started: tc021_validateLocationEndpointErrorFilteringByID
+2025-01-22 19:09:23 [main] INFO  listener.TestListener - Test passed: tc021_validateLocationEndpointErrorFilteringByID
+2025-01-22 19:09:23 [main] INFO  listener.TestListener - Test started: tc030_validateLocationEndpointFilterByMultipleIDs
+2025-01-22 19:09:24 [main] INFO  listener.TestListener - Test passed: tc030_validateLocationEndpointFilterByMultipleIDs
+2025-01-22 19:09:24 [main] INFO  listener.TestListener - Test started: tc031_validateLocationEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:09:24 [main] INFO  listener.TestListener - Test passed: tc031_validateLocationEndpointFilterByMultipleIDsFiveValues
+2025-01-22 19:09:24 [main] INFO  listener.TestListener - Test started: tc032_validateLocationEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:09:24 [main] INFO  listener.TestListener - Test passed: tc032_validateLocationEndpointFilterByMultipleIDsErrorOnFirstID
+2025-01-22 19:09:24 [main] INFO  listener.TestListener - Test started: tc033_validateLocationEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:09:25 [main] INFO  listener.TestListener - Test passed: tc033_validateLocationEndpointFilterByMultipleIDsErrorOnSecondID
+2025-01-22 19:09:25 [main] INFO  listener.TestListener - Test started: tc040_validateLocationEndpointFilterByQueryParams
+2025-01-22 19:09:25 [main] INFO  listener.TestListener - Test passed: tc040_validateLocationEndpointFilterByQueryParams
+2025-01-22 19:09:25 [main] INFO  listener.TestListener - Test started: tc041_validateLocationEndpointErrorFilteringByQueryParams
+2025-01-22 19:09:25 [main] INFO  listener.TestListener - Test passed: tc041_validateLocationEndpointErrorFilteringByQueryParams
+2025-01-22 19:09:25 [main] INFO  listener.TestListener - Test started: tc050_validateLocationEndpointFilterByMultipleQueryParams
+2025-01-22 19:09:25 [main] INFO  listener.TestListener - Test passed: tc050_validateLocationEndpointFilterByMultipleQueryParams
+2025-01-22 19:09:25 [main] INFO  listener.TestListener - Test started: tc051_validateLocationEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:09:26 [main] INFO  listener.TestListener - Test passed: tc051_validateLocationEndpointErrorFilteringByMultipleQueryParams
+2025-01-22 19:09:26 [main] INFO  listener.TestListener - Test suite finished: Surefire test
